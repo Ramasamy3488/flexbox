@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      
+      
+    }
+    .card{
+      flex:0 0 200px;
+      margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    position: relative;
+    height: 430px;
+    border: 5px solid rgb(250, 250, 250);
+    background-color: aliceblue;
+    box-shadow: 5px 5px 3px 2px rgb(186, 199, 199);
+    
+    }
+
+    .card img {
+    max-width: 100%;
+    height: 150px;
+    
+  }
+  .card .text {
+    padding: 0 20px 20px;
+    background-color: rgb(231, 235, 238);
+  }
+ 
+    .butt{
+      position: absolute;
+      bottom: 7px;
+    
+      width: 120px;
+      
+      
+    }
+    button{
+      background-color: aqua;
+      border: none;
+      height: 30px;
+      width: 150px;
+      box-shadow: 5px 5px 3px 2px rgb(52, 80, 80);
+    }
+    button:hover{
+      cursor: pointer;
+      color: rgb(94, 48, 48);
+      background-color: beige;
+      height: 35px;
+      width: 155px;
+    }
+    .card img:hover {
+      cursor: pointer;
+      
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="cards">
+    <article class="card">
+      <img src="image/11.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Shah Rukh Khan</h3>
+        <p>Shah Rukh Khan was born on November 02, 1965 in New Delhi to Meer Taj Mohammed Khan & Lateef Fatima Khan. He also has an elder sister, Shehnaz Lalarukh.</p>
+       <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+    <article class="card">
+      <img src="image/12.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Salman Khan</h3>
+        <p>Abdul Rashid Salim Salman Khan (born 27 December 1965) is an Indian actor, film producer, and television personality who works predominantly in Hindi films.</p>
+        <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+    <article class="card">
+      <img src="image/13.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>James Stewart</h3>
+        <p>Born and raised in Indiana, Pennsylvania, Stewart started acting while at Princeton University. After graduating in 1932, he began a career as a stage actor.</p>
+        <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+    <article class="card">
+      <img src="image/14.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Jack Nicholson</h3>
+        <p>John Joseph Nicholson (born April 22, 1937) is an American retired actor and filmmaker. He is widely regarded as one of the greatest actors of all time.</p>
+        <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+    <article class="card">
+      <img src="image/15.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Rajinikanth</h3>
+        <p>Shivaji Rao Gaikwad (born 12 December 1950), known professionally as Rajinikanth is an Indian actor, producer and screenwriter who works mainly in Tamil.</p>
+        <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+    <article class="card">
+      <img src="image/16.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Kamal Haasan</h3>
+        <p>Kamal Haasan is an Indian actor, filmmaker, screenwriter, playback singer, television presenter and politician who works mainly in Tamil cinema.</p>
+        <div class="butt"><button>FOLLOW</button></div>
+      </div>
+    </article>
+  </div>
+
+</body>
+</html>
